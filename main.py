@@ -37,23 +37,24 @@ def say_hello(name):
 
 # 2. Call `say_hello`
 #    a) Call `say_hello` with the argument "Dr. EB"
-
+say_hello("Dr. EB")
 #    b) Call `say_hello` with your name as the argument
-
+say_hello("Jordan")
 #    c) Call `say_hello` with a friend's name as the argument
-
+say_hello("Kyle")
 
 # 3. Call `draw_spiral` with the following arguments:
 #    a) use 5 for `num_loops`
 #       use 10 for `distance`
 #       use 45 for `angle`
-
+draw_spiral(5,10,45)
 #    b) use 11 for `num_loops`
 #       use 5 for `distance`
 #       use 120 for `angle`
-
+draw_spiral(11,5,120)
 #    c) use 20 for `num_loops`
 #       use 1 for `distance`
 #       use 60 for `angle`
+draw_spiral(20,1,60)
 
 turtle.exitonclick()
